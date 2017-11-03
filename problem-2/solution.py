@@ -13,3 +13,7 @@ def fibonacci():
         a, b = b, a+b
 
     return sum(numbers)
+
+
+if __name__ == '__main__':
+    print(fibonacci())
