@@ -16,3 +16,4 @@ I'm trying to solve Project Euler problems and my target is < 10 seconds per pro
 | 13      | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) 0.055 | [Show](https://github.com/hmleal/euler/blob/master/problem-13/solution.py) |
 | 14      | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) 1.862 | [Show](https://github.com/hmleal/euler/blob/master/problem-14/solution.py) |
 | 16      | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) 0.046 | [Show](https://github.com/hmleal/euler/blob/master/problem-16/solution.py) |
+| 20      | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) 0.045 | [Show](https://github.com/hmleal/euler/blob/master/problem-20/solution.py) |
