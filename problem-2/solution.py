@@ -6,13 +6,13 @@ def fibonacci():
     Calculate sum of all fibonacci even-numbers below 4000000
     """
     a, b = 1, 2
-    numbers = []
+    _sum = 0
     while a < 4000000:
         if a % 2 == 0:
-            numbers.append(a)
+            _sum += a
         a, b = b, a+b
 
-    return sum(numbers)
+    return _sum
 
 
 if __name__ == '__main__':
