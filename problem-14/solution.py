@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-CACHE = {
-}
+CACHE = {}
 
 
 def collatz(limit):
@@ -29,7 +28,7 @@ def collatz(limit):
     return (original_number, CACHE[original_number])
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     chain = 0
     biggest_number = 0
     for x in range(1, 1000000):

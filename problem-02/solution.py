@@ -10,10 +10,10 @@ def fibonacci():
     while a < 4000000:
         if a % 2 == 0:
             _sum += a
-        a, b = b, a+b
+        a, b = b, a + b
 
     return _sum
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(fibonacci())

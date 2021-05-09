@@ -23,7 +23,7 @@ a = [
 
 
 def main():
-    data = ''.join(a)
+    data = "".join(a)
 
     current = 0
     for x in range(len(data)):

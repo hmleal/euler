@@ -18,5 +18,6 @@ def prime_factores(number):
 
     return factores
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     print(max(prime_factores(600851475143)))

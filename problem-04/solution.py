@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     maxp = 0
 
     for x in range(100, 1000):

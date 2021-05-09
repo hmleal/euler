@@ -20,9 +20,9 @@ def primes(limit):
         if is_prime:
             yield i
 
-            for n in range(i*i, limit, i):
+            for n in range(i * i, limit, i):
                 a[n] = False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(sum([p for p in primes(2000000)]))

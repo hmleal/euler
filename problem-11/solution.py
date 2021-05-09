@@ -45,9 +45,9 @@ if __name__ == "__main__":
             try:
                 line = [
                     grid[irow][inumber],
-                    grid[irow][inumber+1],
-                    grid[irow][inumber+2],
-                    grid[irow][inumber+3]
+                    grid[irow][inumber + 1],
+                    grid[irow][inumber + 2],
+                    grid[irow][inumber + 3],
                 ]
             except IndexError:
                 line = [0]
@@ -55,9 +55,9 @@ if __name__ == "__main__":
             try:
                 column = [
                     grid[irow][inumber],
-                    grid[irow+1][inumber],
-                    grid[irow+2][inumber],
-                    grid[irow+3][inumber]
+                    grid[irow + 1][inumber],
+                    grid[irow + 2][inumber],
+                    grid[irow + 3][inumber],
                 ]
             except IndexError:
                 column = [0]
@@ -65,9 +65,9 @@ if __name__ == "__main__":
             try:
                 diagonal = [
                     grid[irow][inumber],
-                    grid[irow+1][inumber+1],
-                    grid[irow+2][inumber+2],
-                    grid[irow+3][inumber+3]
+                    grid[irow + 1][inumber + 1],
+                    grid[irow + 2][inumber + 2],
+                    grid[irow + 3][inumber + 3],
                 ]
             except IndexError:
                 diagonal = [0]
@@ -75,9 +75,9 @@ if __name__ == "__main__":
             try:
                 diagonal_b = [
                     grid[irow][inumber],
-                    grid[irow+1][inumber-1],
-                    grid[irow+2][inumber-2],
-                    grid[irow+3][inumber-3]
+                    grid[irow + 1][inumber - 1],
+                    grid[irow + 2][inumber - 2],
+                    grid[irow + 3][inumber - 3],
                 ]
             except IndexError:
                 diagonal_b = [0]
