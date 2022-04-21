@@ -27,3 +27,4 @@ I'm trying to solve Project Euler problems and my target is < 10 seconds per pro
 | 22      | ![#00FF00](http://placehold.it/15/00FF00/000000?text=+) 0.072 | [Show](https://github.com/hmleal/euler/blob/master/problem-22/solution.py) |
 | 29      | ![#00FF00](http://placehold.it/15/00FF00/000000?text=+)  0.09 | [Show](https://github.com/hmleal/euler/blob/master/problem-29/solution.py) |
 | 48      | ![#00FF00](http://placehold.it/15/00FF00/000000?text=+)  0.09 | [Show](https://github.com/hmleal/euler/blob/master/problem-48/solution.py) |
+| 55      | ![#00FF00](http://placehold.it/15/00FF00/000000?text=+)  0.08 | [Show](https://github.com/hmleal/euler/blob/master/problem-55/solution.py) |
